@@ -1,0 +1,91 @@
+.feedback-main-container{
+
+    padding:50px;
+}
+
+.feedback-card-container {
+  /* min-width:400px; */
+padding:20px;
+  min-height: 100px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+  
+}
+/* .feedback-card-container:hover {
+    background-color: rgb(17, 144, 255);
+} */
+.feedback-card-container img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+ /* position: absolute;
+ bottom:90px; */
+
+}
+/* .feedback-img{ */
+    /* position: absolute;
+    bottom:80px; */
+ 
+
+/* } */
+
+
+.feedback-card-container p{
+    font-size: 15px;
+    color:#ffa200;
+    padding:10px;
+    font-style: italic;
+}
+
+.feedback-container {
+  display: flex;
+  gap: 40px;
+ 
+
+
+}
+
+.feedback-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+.feedback-header h1{
+  font-size: 70px ;
+  font-family: poppins;
+  font-weight: bold;
+  background: linear-gradient(to left,#ffc400,#2e0505);
+  background-clip: text;
+  color:transparent;
+}
+.feedback-header hr{
+    width:300px;
+    border:3px solid rgb(145, 134, 51);
+}
+.feedback-header p{
+  font-weight: 800;
+  color:#073e04;
+  font-family: open sans;
+}
+.marq-container{
+  display: flex;
+  justify-content: center;
+  /* border:1px solid grey; */
+  /* border-radius: 30px;
+  padding:40px 0px; */
+}
+marquee{
+  width:60%;
+}
+.feedback-icon-container{
+    display: flex;
+    justify-content: center;
+    color:#ffdc18;
+}

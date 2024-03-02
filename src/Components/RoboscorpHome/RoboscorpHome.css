@@ -1,0 +1,203 @@
+.Roboscorp-section1-container {
+  height: 50vh;
+  display: flex;
+}
+.Roboscorp-section1-container form {
+  background-color: rgba(77, 69, 22, 0.97);
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Roboscorp-section1-container form div {
+  display: flex;
+  background-color: rgb(243, 221, 77);
+  padding: 5px;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Roboscorp-section1-container form div input {
+  font-family: poppins;
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #524f4f;
+  font-size: 20px;
+  font-weight: 500;
+}
+.location-icons {
+  font-size: 20px;
+  color: #423c06;
+}
+.Roboscorp-section1-container form button {
+  width: 300px;
+
+  background-color: #000000;
+  border: none;
+  color: rgb(243, 221, 77);
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+/* map container */
+.map-container {
+  background-image: url("https://cdn.pixabay.com/photo/2013/06/20/13/52/world-140304_1280.jpg");
+  width: 100%;
+  background-position: center;
+}
+
+/* bike fare card */
+
+.Roboscorp-section2-container {
+  padding: 40px 10px;
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;
+
+}
+.our-fares{
+    text-align: center;
+    font-family: poppins;
+    font-size: 50px;
+    padding:20px;
+}
+
+.bike-fare-card {
+  min-width: 400px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-left: 20px solid #bea536;
+    cursor: pointer;
+}
+.bike-fare-card img {
+  height: 300px;
+}
+
+.bike-fare-card p{
+    font-family: poppins;
+    padding:10px 0px;
+}
+.bike-fare-card span{
+    color:#bea536
+}
+.bike-fare-card button{
+    background-color: #bea536;
+    color:#fff0f0;
+    border:none;
+    width:100px;
+    padding:5px;
+    font-size:17px;
+    font-family: poppins;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.choose-location{
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/31/06/56/map-3120436_1280.jpg');
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter:grayscale(1);
+    transition: all 1s linear;
+    cursor: pointer;
+
+}
+.choose-location:hover{
+    filter: grayscale(0);
+}
+.choose-location p{
+    font-family: poppins;
+    font-size:60px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+
+/* boarding-point-Container */
+.boarding-point-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height:100px; */
+    width: 290px;
+    overflow-y: scroll;
+    position: absolute;
+    top:105px;
+    font-family: poppins;
+
+}
+
+ li{
+    list-style: none;
+    cursor: pointer;
+    font-family: poppins;
+}
+
+.boarding-point-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height:100px; */
+    width: 290px;
+    overflow-y: scroll;
+    position: absolute;
+    top:185px;
+    font-family: poppins;
+
+}
+
+.prices-Loading-section{
+  background-color: #060606;
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prices-Loading-section p{
+  color:#fff0f0;
+  font-family:poppins;
+  font-size:40px;
+  padding:10px;
+}
+
+.loader {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.loader:before , .loader:after{
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+}
+.loader:after {
+  box-shadow: 0 2px 0 #FF3D00 inset;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {  transform: rotate(0)}
+  100% { transform: rotate(360deg)}
+}
+
+

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Raleway&family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.hero-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fedb4e;
+    width:100%;
+    height:100vh;
+}
+@media (max-width:928px) {
+    .hero-main-container{
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: #fedb4e;
+        
+        /* flex-wrap:wrap; */
+    }
+   
+
+    
+}
+
+.video-container{
+  
+    width:50%;
+   
+}
+
+.video-container video{
+    width:100%;
+    height:100vh;
+}
+
+@media (max-width:928px) {
+
+    .video-container{
+        width: 100%;
+    }
+
+    .video-container video{
+        width:100%;
+        height:40vh;
+       
+    }
+
+}
+@media(max-width:600px) {
+    .video-container video{
+        width:100%;
+       
+       
+    }
+    
+}
+
+.hero-content-container{
+    width:50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:40px;
+   height:100vh;
+   /* background-image: url('../../assets/triangleAsymmetricalNegative.svg'); */
+   border-radius: 0% 100% 100% 0% / 90% 100% 0% 10% ;
+   /* background:linear-gradient(to right ,#fedb4e,#fff); */
+   background-color: #fff;
+   padding:0px 20px;
+   
+}
+
+@media (max-width:928px) {
+    .hero-content-container{
+        width:100%;
+    }
+
+}
+
+
+.hero-content-container h1{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    color:transparent;
+    font-size:70px;
+    background: linear-gradient(to left,#ffc508,#000000);
+    background-clip: text;
+
+
+
+}
+
+@media(max-width:600px) {
+    .hero-content-container h1{
+        font-size:40px;
+
+    }
+  
+
+    
+}
+.hero-content-container p{
+    width:80%;
+    font-size:20px;
+    font-family: poppins;
+    color:#000000;
+    font-weight: 400;
+}
+.button-container {
+    display: flex;
+    gap:40px;
+
+}
+
+.button-container button{
+    width:200px;
+    padding:10px;
+    border:none;
+    font-size:20px;
+    cursor: pointer;
+    border: 2px solid #000;
+    background-color: transparent;
+}
+.button-container button:nth-child(1){
+    background-color: #000;
+    color:#fedb4e;
+    font-size:20px;
+}
+
+@media(max-width:600px){
+    .hero-content-container p{
+        font-size: 16px;
+
+    }
+    .button-container button{
+        width:150px;
+        font-size:15px;
+    
+    }
+    .button-container button:nth-child(1){
+        font-size: 15px;
+    }
+
+}

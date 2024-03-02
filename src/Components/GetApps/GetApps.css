@@ -1,0 +1,44 @@
+.get-apps-container{
+    height:60vh;
+    background-color: rgb(216, 216, 216);
+}
+
+.get-apps-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.get-apps-header h2{
+    font-size:60px;
+    font-weight: bold;
+    background: linear-gradient(to left,#ffc400,#2e0505);
+    background-clip: text;
+    color:transparent;
+    font-family: open sans;
+}
+
+.get-apps-header hr{
+    width:300px;
+    border:3px solid rgb(145, 134, 51);
+}
+.qr-code-card{
+    display: flex;
+    justify-content: space-evenly;
+    width:600px;
+    padding:20px;
+    gap:20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+
+}
+.qr-code-card img{
+    height:150px;
+}
+.Qr-code-container{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding:40px;
+}

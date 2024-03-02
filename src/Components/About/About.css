@@ -1,0 +1,116 @@
+/* *{
+    border:2px solid green;
+} */
+
+.About-us-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    background-image: url('../../assets/wavesNegative.svg');
+}
+@media (max-width:950px){
+    .About-us-section-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* height:50vh; */
+        /* background-color: antiquewhite; */
+        background-image: none;
+
+    }
+    
+}
+.About-img-container img{
+    height:600px;
+}
+
+
+@media (max-width:950px){
+    .About-img-container img{
+        padding-top: 30px;
+       
+    }
+
+
+}
+
+@media (max-width:653px){
+    .About-img-container img{
+        width:100%;
+        height:100%;
+       
+    }
+
+}
+.about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px;
+    font-family: Open sans;
+}
+.about-header h1{
+    font-size:60px;
+    font-weight: bold;
+    background: linear-gradient(to left,#ffc508,#000000);
+    background-clip: text;
+    color:transparent;
+}
+
+
+.about-header hr{
+    width:300px;
+    border:3px solid rgb(145, 134, 51);
+}
+
+@media(max-width:620px){
+
+    .about-header h1{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:450px){
+
+    .about-header h1{
+        font-size: 30px;
+    }
+}
+.safety-measurements-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    gap:30px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+cursor:pointer;
+}
+
+.safety-measurements-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border:2px solid #ffc508;
+}
+.seat-belt-icon{
+    font-size:70px;
+    color:#ffc508;
+}
+.safety-measurements-card p{
+    font-family: poppins;
+    font-size:20px;
+}
+.safety-measurements-card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:950px){
+    .seat-belt-icon{
+        font-size:40px;
+    }
+  
+
+}

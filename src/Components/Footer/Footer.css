@@ -1,0 +1,105 @@
+.Footer-container{
+    background-color: #231908;
+   
+}
+
+.footer-company{
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+   
+    color:#fff;
+
+  
+    
+
+}
+
+.footer-company img{
+    height:250px;
+}
+
+.footer-container-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.footer-container-cards h2{
+    color:#ffc508;
+    font-family: poppins;
+}
+.footer-company p{
+    color:#fff;
+    width:70%;
+    
+}
+.footer-products{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    color:#fff;
+}
+
+.footer-contactus{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    color:#fff;
+    
+
+}
+.footer-contactus p{
+    width:45%;
+}
+.footer-followUS{
+width:200px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    color:#fff;
+}
+
+.footer-followUS hr{
+    width:200px;
+    border:3px solid #ffc508;
+}
+
+.footer-followUS-icons {
+    display: flex;
+    flex-wrap:wrap;
+    padding:20px;
+    gap:10px
+}
+.footer-followUS-icons .footer-icon{
+    font-size:30px;
+    color:#ffc508;
+
+}
+.copyright-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#fff;
+  align-items: center;
+    background-color:#000000;
+    padding:20px;
+    font-family: open sans;
+    gap:10px;
+}
+.copyright-container hr{
+    width:90%;
+    border:1px solid #bdb621;
+}

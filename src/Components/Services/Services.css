@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .Services-section-total-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:poppins;
+  
+    /* width: 100vw; */
+    height: 100%;
+  }
+  
+  .Services-hero-section {
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .Services-hero-section-content-div {
+    height: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-direction: column;
+    width: 50%;
+  }
+  .Services-hero-section-content-div h1 {
+    font-size: 46px;
+    padding-left: 30px;
+  }
+  .Services-hero-section-content-div h4 {
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 700;
+  }
+  .Services-hero-section-content-div p {
+    font-size: 19px;
+    padding-left: 10px;
+    /* font-weight: 600; */
+
+  }
+  .Services-hero-section-content-div button {
+    height: 43px;
+    width: 218px;
+    margin-left: 60px;
+    background-color: yellow;
+    outline: none;
+    border: none;
+    /* font-weight: bold; */
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .images {
+    width: 50%;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+  }
+  .Services-head-main-div h1 {
+    font-size: 40px;
+    text-align: start;
+    padding: 30px;
+  }
+  .Services-what-we-de-section-main-div {
+    background-image: url("../../assets/Servicebackground.png");
+    height: 100%;
+    /* width: 100vw; */
+    padding-bottom: 30px;
+  }
+  .Services-what-we-de-section-cards-inner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    width: 470px;
+  
+    background: transparent;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  .Services-what-we-de-section-cards-inner-div:hover {
+    transform: scale(1.04);
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+  }
+  .Services-what-we-de-section-cards-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Services-what-we-de-section-cards-inner-div-inner-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 130px;
+    height: 200px;
+    width: 300px;
+    background-color: #f6f5f5;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .Services-what-we-de-section-cards-inner-div-inner-div h1 {
+    position: absolute;
+    bottom: 60px;
+    left: 65px;
+    color: rgb(119, 119, 21);
+    font-size: 160px;
+  }
+  .Services-what-we-de-section-cards-inner-div-inner-div h3 {
+    position: absolute;
+    bottom: 50px;
+    /* left: 105px; */
+    color: rgb(176, 176, 1);
+    font-size: 40px;
+  }
+  .Services-what-we-de-section-cards-para-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    color: rgb(14, 14, 14);
+    padding: 1px 20px;
+    /* font-weight: bold; */
+    font-family :open sans;
+    background-color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    height: 150px;
+    width: 440px;
+  }
+  .Services-what-we-de-section-cards-main-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .package-image {
+    height: 80vh;
+    /* width: 100vw; */
+  }
+  .Services-package-main-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/colorkit.png');
+  }
+  .Services-package-cards-main-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    display: flex;
+  }
+  .Services-package-main-div p {
+    text-align: center;
+    padding: 0px 90px;
+    font-size: 17px;
+    /* font-weight: bold; */
+    color: #7c7c7c;
+  }
+  
+  .Services-package-single-card-content-head-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+   
+  }
+  .Services-package-cards-main-div p{
+    font-weight: 100;
+    color:#7c7c7c;
+  }
+  .Services-package-content-button-div button {
+    height: 38px;
+    width: 98px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    /* font-weight: bold; */
+    color: yellow;
+    font-size: 13px;
+    border: 2px solid yellow;
+    padding: 0px 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .Services-package-main-div h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  
+  .Services-package-cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .Services-package-single-card {
+    position: relative;
+    background-image: url("../../assets/Servicebackground.png");
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    padding-top: 80px;
+    cursor: pointer;
+  }
+  .Services-package-single-card-content-div {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../assets/packageback.png");
+    background-size: cover;
+    height: 370px;
+    width: 290px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+      rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+  
+  .Services-package-single-card-content-div h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(251, 248, 249);
+    font-size: 500px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+    top: 34px;
+  }
+  .Services-package-single-card-content-div h2 {
+    position: absolute;
+  
+    top: 144px;
+  }
+  .Services-package-content-divs-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Services-package-content-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    gap: 30px;
+  }
+  .Services-package-content-div h4 {
+    font-size: 30px;
+    color: rgb(4, 246, 4);
+  }
+  .Services-package-content-div h3 {
+    padding-top: 3px;
+    font-weight:500;
+  }

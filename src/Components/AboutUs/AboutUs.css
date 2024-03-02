@@ -1,0 +1,169 @@
+.about-us-section1{
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/06/12/34/taxi-1574278_1280.jpg');
+    height:60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.about-us-section1 h1{
+    font-size:50px;
+    font-family: open sans;
+    color:rgb(200, 149, 62);
+    
+}
+.about-us-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../../assets/about-sec2.svg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us-section2 div img{
+    height:500px;
+}
+.about-us-section2 div p{
+    font-family: poppins;
+    font-size: 20px;
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-us-our-team{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-our-team h1{
+    font-family: poppins;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us-card{
+    display: flex;
+   width:50%;
+   justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.about-us-card p ,.about-us-card2 p{
+    /* width:50%; */
+    font-family: poppins;
+    padding:10px;
+}
+.about-us-card h1 ,.about-us-card2 h1{
+    font-family: poppins;
+    padding:10px;
+}
+.about-us-card img ,.about-us-card2 img{
+    height:400px;
+    
+}
+
+.about-us-card2{
+    display: flex;
+   align-self: flex-end;
+    width:50%;
+    cursor: pointer;
+     background-color: aliceblue;
+   
+
+  
+   
+}
+
+.about-us-career-page{
+    background-image: url('https://cdn.pixabay.com/photo/2019/03/12/12/47/people-4050698_1280.jpg');
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.about-us-career-page p{
+    font-family: poppins;
+    font-size:30px;
+    color:#f7dc67;
+}
+
+
+
+
+
+
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #f0dc6d;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 10px;
+  width:200px;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}

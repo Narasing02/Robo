@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .PrivacyandPolicy-hero-section-div {
+    height: 60vh;
+    width: 100%;
+    background-image: url("../../assets/privicy.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+  }
+  .PrivacyandPolicy-hero-section-div h1 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: poppins;
+  }
+  .PrivacyandPolicy-hero-section-div p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: poppins;
+    color: rgb(63, 64, 64);
+  }
+  .PrivacyandPolicy-hero-section-div span {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    color: rgb(31, 31, 31);
+  }
+  .PrivacyandPolicy-content-section-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+  }
+  .PrivacyandPolicy-content-section-div-inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .PrivacyandPolicy-content-section-div-inner-div h1 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: poppins;
+  }
+  .PrivacyandPolicy-content-section-div-inner-div h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+  }
+  .PrivacyandPolicy-content-section-div-inner-div p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    color: rgb(63, 64, 64);
+  }
+  .PrivacyandPolicy-content-section-div-inner-div span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    color: rgb(11, 11, 11);
+  }
+  @media (max-width: 515px) {
+    .PrivacyandPolicy-hero-section-div {
+      height: 60%;
+    }
+    .PrivacyandPolicy-hero-section-div h1 {
+      font-size: 30px;
+    }
+    .PrivacyandPolicy-hero-section-div p {
+      font-size: 14px;
+      text-align: center;
+    }
+    .PrivacyandPolicy-hero-section-div span {
+      font-size: 14px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div h1 {
+      font-size: 19px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div h2 {
+      font-size: 17px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div p {
+      font-size: 13px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div span {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 900px) {
+    .PrivacyandPolicy-hero-section-div {
+      height: 50vh;
+    }
+    .PrivacyandPolicy-hero-section-div h1 {
+      font-size: 35px;
+    }
+    .PrivacyandPolicy-hero-section-div p {
+      font-size: 15px;
+      text-align: center;
+    }
+    .PrivacyandPolicy-hero-section-div span {
+      font-size: 16px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div h1 {
+      font-size: 21px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div h2 {
+      font-size: 19px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div p {
+      font-size: 15px;
+    }
+    .PrivacyandPolicy-content-section-div-inner-div span {
+      font-size: 20px;
+    }
+  }

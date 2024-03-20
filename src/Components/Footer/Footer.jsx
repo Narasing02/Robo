@@ -2,7 +2,8 @@ import './Footer.css'
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagramSquare,FaYoutube ,FaLinkedin} from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
+import roboLogo from '../../assets/robo-logo.png'
 const Footer = () => {
   return (
     <div className='Footer-container'>
@@ -12,15 +13,21 @@ const Footer = () => {
                 <p>RobosCorp app is owned and operated by Robo Fasttech Private Limited</p>
                 <p>Blog</p>
                 <p>Careers</p>
-                <img src="https://roboscorp.com/static/media/roboride.538fc8507bd8197165d9.png" alt=""/>
+                <img src={roboLogo} alt=""/>
+            </div>
+            <div className='footer-information'>
+                <h2>Information</h2>
+                <p> <Link to="/terms" className='footer-link'>Terms & Conditions </Link></p>
+                <p> <Link to="/privacy" className='footer-link'>Privacy Policy </Link></p>
+                
             </div>
 
             <div className='footer-products'>
                 <h2>Products</h2>
                 <p>Ride</p>
                 <p>Drive</p>
-                <p>Home</p>
-                <p>About</p>
+                <p><Link to="/" className='footer-link'>Home</Link></p>
+                <p> <Link to="/about" className='footer-link'>About</Link></p>
             </div>
 
             <div className='footer-contactus'>
@@ -50,7 +57,7 @@ const Footer = () => {
         </div>
         <div className='copyright-container'>
             <hr/>
-            <p>© Copy rights by Robocorp 2023</p>
+            <p>© Copy rights by RobosCorp 2023</p>
 
         </div>
 

@@ -65,6 +65,21 @@ padding:20px;
   background-clip: text;
   color:transparent;
 }
+
+@media (max-width:876px){
+  .feedback-header h1{
+    font-size: 35px;
+
+  }
+}
+
+  @media (max-width:530px){
+    .feedback-header h1{
+      font-size: 30px;
+  
+    }
+
+}
 .feedback-header hr{
     width:300px;
     border:3px solid rgb(145, 134, 51);
@@ -83,6 +98,14 @@ padding:20px;
 }
 marquee{
   width:60%;
+}
+
+@media(max-width:530px){
+  marquee{
+    width:80%;
+  }
+
+
 }
 .feedback-icon-container{
     display: flex;

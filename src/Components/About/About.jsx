@@ -3,6 +3,7 @@ import { MdOutlineAirlineSeatReclineNormal } from "react-icons/md";
 import { FaTrafficLight,FaCar  } from "react-icons/fa";
 import { RiEBikeFill } from "react-icons/ri";
 import { GiFullMotorcycleHelmet } from "react-icons/gi";
+import roboTaxiImg from '../../assets/robo-logo.png'
 const About = () => {
   return (
     <div>
@@ -12,7 +13,7 @@ const About = () => {
         </div>
       <div className="About-us-section-container">
         <div className='About-img-container'>
-            <img src="https://roboscorp.com/static/media/roboride.538fc8507bd8197165d9.png" alt=""/>
+            <img src={roboTaxiImg} alt=""/>
         </div>
         <div className='safety-measurements-card-container'>
             <div className='safety-measurements-card'>
@@ -43,15 +44,7 @@ const About = () => {
 
 
 
-          {/* <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            optio ea id non natus accusantium odit laudantium aliquam?
-            Voluptates et dicta, rem earum totam delectus amet esse molestias
-            natus. Similique? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Doloremque, nostrum molestias accusamus corporis
-            quos similique labore doloribus rem repudiandae ipsa natus, ut
-            tenetur aperiam consequatur. Dolorum aut sed recusandae voluptas.
-          </p> */}
+      
         </div>
       </div>
     </div>

@@ -30,6 +30,17 @@
     padding:40px;
     color:#ffd54a;
 }
+@media(max-width:976px){
+    .document-section-ul-cont{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .documents-section2 h2{
+        font-size: 30px;
+    }
+
+}
 .document-section-ul-cont ul{
     display: flex;
     flex-direction: column;
@@ -41,12 +52,28 @@
     height:500px;
 }
 
+@media(max-width:976px){
+    .document-section-ul-cont img{
+        height:350px;
+        width:350px;
+    }
+
+}
+
 .taxi-car-with-container{
     display: flex;
     justify-content: space-evenly;
     padding:20px;
 }
 
+@media(max-width:951px){
+    .taxi-car-with-container{
+        display: flex;
+       flex-direction: column;
+    }
+    
+
+}
 .taxi-doc-sec{
     display: flex;
     flex-direction: column;
@@ -79,4 +106,10 @@
 }
 .document-section-4 img{
     height:300px;
+}
+
+@media(max-width:951px){
+    .document-section3-page1 h2{
+        font-size: 30px;
+    }
 }

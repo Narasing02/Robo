@@ -1,5 +1,5 @@
 .get-apps-container{
-    height:60vh;
+    max-height:60vh;
     background-color: rgb(216, 216, 216);
 }
 
@@ -16,6 +16,14 @@
     background-clip: text;
     color:transparent;
     font-family: open sans;
+}
+
+@media(max-width:1000px){
+    .get-apps-header h2{
+        font-size: 35px;
+        padding:10px;
+    }
+    
 }
 
 .get-apps-header hr{
@@ -41,4 +49,28 @@
     justify-content: center;
     gap:20px;
     padding:40px;
+}
+
+@media(max-width:1000px){
+    .Qr-code-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        
+    }
+    .qr-code-card{
+        max-width: 500px;
+
+    }
+
+}
+
+@media(max-width:480px){
+    .qr-code-card{
+        max-width: 450px;
+
+    }
+
 }

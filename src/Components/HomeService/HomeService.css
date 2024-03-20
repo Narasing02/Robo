@@ -1,47 +1,30 @@
-.Services-hero-section {
-    height: 100vh;
-    /* width: 100%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   font-family: poppins;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-  }
-  .Services-hero-section-content-div {
-    height: 100%;
-  
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 50px;
-    flex-direction: column;
-    width: 50%;
-  }
-  .Services-hero-section-content-div h1 {
-    font-size: 46px;
-    padding-left: 30px;
-  }
-  .Services-hero-section-content-div h4 {
-    font-size: 16px;
-    padding-left: 10px;
-    font-weight: 700;
-  }
-  .Services-hero-section-content-div p {
-    font-size: 19px;
-    padding-left: 10px;
-    /* font-weight: 600; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home-Services-hero-section {
+  font-family: Poppins;
+}
+.home-Services-hero-section-content-div p {
+  font-family: Poppins;
+}
+#home-Services-hero-section-content-div-head {
+  font-family: Poppins;
+  font-size: 45px;
+}
+.home-Services-hero-section-content-div h4 {
+  font-family: Poppins;
+  font-size: 20px;
 
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .home-Services-hero-section-content-div h4 {
+    margin-top: 90px;
   }
-  .Services-hero-section-content-div button {
-    height: 43px;
-    width: 218px;
-    margin-left: 60px;
-    background-color: yellow;
-    outline: none;
-    border: none;
-    /* font-weight: bold; */
-    font-size: 20px;
-    cursor: pointer;
+  #home-Services-hero-section-content-div-head {
+    font-family: Poppins;
+    font-size: 25px;
   }
+}

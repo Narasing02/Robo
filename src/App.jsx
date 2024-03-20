@@ -12,8 +12,10 @@ import DocumentComp from "./Components/DocumentsComp/DocumentComp";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/ContactUS/ContactUS";
-import Login from "./Components/Login/Login";
+// import Login from "./Components/Login/Login";
 import './App.css'
+import TermsandConditions from "./Components/Terms-And-Conditions/TermsandConditions";
+import PrivacyandPolicy from "./Components/PrivacyandPolicy/PrivacyandPolicy";
 
 const App = () => {
   return (
@@ -28,7 +30,9 @@ const App = () => {
         <Route exact path="/document" element={<DocumentComp />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/contact-us" element={<Contact />} />
-        <Route exact path="/book-taxi" element={<Login />} />
+        {/* <Route exact path="/book-taxi" element={<Login />} /> */}
+        <Route exact path="/terms" element={<TermsandConditions/>} />
+        <Route exact path="/privacy" element={<PrivacyandPolicy/>} />
       </Routes>
       <Footer/>
     </Router>

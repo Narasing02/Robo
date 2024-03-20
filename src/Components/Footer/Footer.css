@@ -1,5 +1,6 @@
 .Footer-container{
     background-color: #231908;
+    width:100%;
    
 }
 
@@ -19,14 +20,17 @@
 }
 
 .footer-company img{
-    height:250px;
+    height:200px;
 }
 
 .footer-container-cards{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding:20px;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding:10px;
+    gap:25px;
+    flex-wrap: wrap;
 }
 .footer-container-cards h2{
     color:#ffc508;
@@ -43,6 +47,17 @@
     gap:20px;
     justify-content: center;
     align-items: center;
+    font-family: poppins;
+    color:#fff;
+}
+
+.footer-information{
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: flex-start;
     font-family: poppins;
     color:#fff;
 }
@@ -102,4 +117,10 @@ width:200px;
 .copyright-container hr{
     width:90%;
     border:1px solid #bdb621;
+}
+
+.footer-link{
+    text-decoration: none;
+    color:#fff;
+    font-family: poppins;
 }

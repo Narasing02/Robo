@@ -1,5 +1,5 @@
 .about-us-section1{
-    background-image: url('https://cdn.pixabay.com/photo/2016/08/06/12/34/taxi-1574278_1280.jpg');
+    background-image: url('../../assets/taxi-about-bg.jpg');
     height:60vh;
     background-size: cover;
     display: flex;
@@ -21,6 +21,17 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media(max-width:928px){
+    .about-us-section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:10px;
+    }
+
+}
+
 .about-us-section2 div img{
     height:500px;
 }
@@ -45,6 +56,8 @@
     padding: 20px;
     text-align: center;
 }
+
+
 
 .about-us-card{
     display: flex;
@@ -80,8 +93,26 @@
    
 }
 
+@media(max-width:1250px){
+
+    .about-us-our-team{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+
+    }
+    .about-us-card{
+        width:100%;
+    }
+
+    .about-us-card2{
+        width:100%;
+    }
+    
+}
+
 .about-us-career-page{
-    background-image: url('https://cdn.pixabay.com/photo/2019/03/12/12/47/people-4050698_1280.jpg');
+    background-image: url('../../assets/group-peoples.jpg');
     height:60vh;
     background-size: cover;
     background-position: center;

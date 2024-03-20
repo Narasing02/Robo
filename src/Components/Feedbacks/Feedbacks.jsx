@@ -5,27 +5,27 @@ import { FaStar } from "react-icons/fa";
 const clientFeedbacks =[
     {
         image :"https://i.pinimg.com/564x/07/33/ba/0733ba760b29378474dea0fdbcb97107.jpg",
-        clientFeed :" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        clientFeed :"Customer service for Roboscrop taxis is responsive and helpful"
     },
     {
         image :"https://i.pinimg.com/564x/b8/5e/9d/b85e9df9e9b75bcce3a767eb894ef153.jpg",
-        clientFeed :" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        clientFeed :" Roboscrop taxi service is incredibly convenient and easy to use."
     },
     {
         image :"https://i.pinimg.com/564x/2f/57/8d/2f578d07945132849b05fbdaf78cba38.jpg",
-        clientFeed :" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        clientFeed :" The fare was reasonable and transparent."
     },
     {
         image :"https://i.pinimg.com/564x/07/33/ba/0733ba760b29378474dea0fdbcb97107.jpg",
-        clientFeed :" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        clientFeed :" I felt safe throughout the journey"
     },
     {
         image :"https://i.pinimg.com/564x/b8/5e/9d/b85e9df9e9b75bcce3a767eb894ef153.jpg",
-        clientFeed :" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        clientFeed :" Overall, a great experience with the taxi service"
     },
     {
         image :"https://i.pinimg.com/564x/2f/57/8d/2f578d07945132849b05fbdaf78cba38.jpg",
-        clientFeed :" Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        clientFeed :" The taxi service's customer support was responsive and helpful."
     }
    
 ]

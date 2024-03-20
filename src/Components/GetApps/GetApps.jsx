@@ -1,6 +1,8 @@
 import './GetApps.css'
-import driverQR from '../../assets/urban-qr-code.png'
-import userQR from '../../assets/urban-line-qr-code.png'
+import userQR from '../../assets/robo-rider.png'
+import driverQR from '../../assets/robo-driver.png'
+
+
 const GetApps = () => {
   return (
     <div className='get-apps-container'>

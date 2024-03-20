@@ -1,4 +1,5 @@
 import "./AboutUs.css";
+import roboImg from '../../assets/robo-logo.png'
 
 const AboutUs = () => {
   return (
@@ -10,83 +11,84 @@ const AboutUs = () => {
       <div className="about-us-section2">
         <div>
           <img
-            src="https://roboscorp.com/static/media/roboride.538fc8507bd8197165d9.png"
+            src={roboImg}
             alt=""
           />
         </div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            maiores placeat molestias sapiente, repudiandae error neque dolore,
-            magnam facilis mollitia sint eum molestiae odit aperiam quia
-            aspernatur voluptate sed. Ea. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Nobis a facilis debitis recusandae quo odio error
-            ab sit reiciendis praesentium soluta voluptate officiis beatae,
-            harum magni. Totam magnam ex doloribus.
+            The flexibility and accessibility of transportation. Regardless of
+            your location or the time of day, you have the opportunity to embark
+            on a journey or travel to your desired destination. The capability
+            to deliver parcels or shipments to any location, regardless of
+            distance
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-            distinctio omnis quis illum sequi explicabo veritatis? Quidem, eius
-            tempora dignissimos voluptatum nulla alias eos assumenda eum
-            reiciendis vel laborum doloribus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Facilis doloremque repellendus unde!
-            Ad pariatur delectus tempora voluptatum asperiores autem inventore.
-            Temporibus, nam molestiae illum nobis voluptate delectus quaerat
-            dolor minima.
+            Moreover, the accessibility of transportation extends beyond
+            personal mobility. It encompasses the seamless movement of goods and
+            parcels, facilitating commerce and trade on a global scale. This
+            capability ensures that packages can be delivered to any location,
+            regardless of the distance involved, thereby fostering economic
+            activities and enhancing connectivity between regions.
           </p>
         </div>
       </div>
-
+{/* 
       <div className="about-us-our-team">
         <h1>Our Team</h1>
         <div className="about-us-card">
-            <div>
-            <h1>Lorem Dolor </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-            quia exercitationem ad cupiditate, esse maxime commodi illo.
-            Corporis fugiat culpa a iure! Temporibus at unde quasi odio, quod
-            est. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Deleniti, provident ea voluptates, excepturi nisi iusto
-            inventore eligendi dolorem facere minima eius accusamus laudantium?
-            Magnam nostrum porro facere ex reprehenderit perspiciatis.
-          </p>
+          <div>
+            <h1>Dr. SHANKAR  </h1>
+            <p>
+            A Entrepreneur with an acute passion for business and enterprising. began his career in Dubai in the transportation and construction industries, eventually expanding his company over many nations. 
 
-            </div>
-            <div>
-            <img src="https://cdn.pixabay.com/photo/2015/03/28/16/29/business-696076_1280.jpg" alt=""/>
-            </div>
-          
-         
+30 years of industry expertise and a lot of hard effort to get here.
+a dynamic, results-oriented leader with a proven track record of building fast-growing companies
+
+Technology Integration: The company provides a range of services, from IT infrastructure projects 
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.pixabay.com/photo/2015/03/28/16/29/business-696076_1280.jpg"
+              alt=""
+            />
+          </div>
         </div>
 
         <div className="about-us-card2">
-            <div>
+          <div>
             <h1>Lorem Dolor </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-            quia exercitationem ad cupiditate, esse maxime commodi illo.
-            Corporis fugiat culpa a iure! Temporibus at unde quasi odio, quod
-            est. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Deleniti, provident ea voluptates, excepturi nisi iusto
-            inventore eligendi dolorem facere minima eius accusamus laudantium?
-            Magnam nostrum porro facere ex reprehenderit perspiciatis.
-          </p>
-
-            </div>
-            <div>
-            <img src="https://cdn.pixabay.com/photo/2015/08/14/15/28/smiling-888532_1280.jpg" alt=""/>
-            </div>
-          
-         
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+              quia exercitationem ad cupiditate, esse maxime commodi illo.
+              Corporis fugiat culpa a iure! Temporibus at unde quasi odio, quod
+              est. Nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Deleniti, provident ea voluptates, excepturi nisi iusto
+              inventore eligendi dolorem facere minima eius accusamus
+              laudantium? Magnam nostrum porro facere ex reprehenderit
+              perspiciatis.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://cdn.pixabay.com/photo/2015/08/14/15/28/smiling-888532_1280.jpg"
+              alt=""
+            />
+          </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="about-us-career-page">
-        <p>Join us in exploring a world of endless opportunities. Let’s find a spot for you.</p>
+        <p>
+          Join us in exploring a world of endless opportunities. Let’s find a
+          spot for you.
+        </p>
 
-        <button className="button-57" role="button"><span className="text">Join With US</span><span>Go To Careerpage</span></button>
-
+        <button className="button-57" role="button">
+          <span className="text">Join With US</span>
+          <span>Go To Careerpage</span>
+        </button>
       </div>
     </div>
   );

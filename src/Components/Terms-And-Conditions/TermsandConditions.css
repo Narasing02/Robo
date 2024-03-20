@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .TermsandConditions-total-div {
+  }
+  .TermsandConditions-hero-section-div {
+    height: 60vh;
+    width: 100%;
+    background-image: url("../../assets/privicy.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+  }
+  .TermsandConditions-hero-section-div h1 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: poppins;
+  }
+  .TermsandConditions-hero-section-div p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: poppins;
+    color: rgb(63, 64, 64);
+    text-align: center;
+  }
+  .TermsandConditions-content-section-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+  }
+  .TermsandConditions-content-section-div-inner-div-inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px 20px;
+    gap: 10px;
+  }
+  .TermsandConditions-content-section-div-inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .TermsandConditions-content-section-div-inner-div h1 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: poppins;
+  }
+  .TermsandConditions-content-section-div-inner-div h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+  }
+  .TermsandConditions-content-section-div-inner-div p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: poppins;
+    color: rgb(63, 64, 64);
+  }
+  .TermsandConditions-content-section-div-inner-div span {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+    color: rgb(11, 11, 11);
+  }
+  @media (max-width: 515px) {
+    .TermsandConditions-hero-section-div {
+      height: 40vh;
+  
+      padding: 0px 10px;
+    }
+    .TermsandConditions-hero-section-div h1 {
+      font-size: 30px;
+    }
+    .TermsandConditions-hero-section-div p {
+      font-size: 14px;
+    }
+    .TermsandConditions-content-section-div-inner-div h1 {
+      font-size: 17px;
+    }
+    .TermsandConditions-content-section-div-inner-div h2 {
+      font-size: 15px;
+    }
+    .TermsandConditions-content-section-div-inner-div p {
+      font-size: 13px;
+    }
+    .TermsandConditions-content-section-div-inner-div span {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 900px) {
+    .TermsandConditions-hero-section-div {
+      height: 50vh;
+  
+      padding: 0px 20px;
+    }
+    .TermsandConditions-hero-section-div h1 {
+      font-size: 34px;
+    }
+    .TermsandConditions-hero-section-div p {
+      font-size: 17px;
+    }
+    .TermsandConditions-content-section-div-inner-div h1 {
+      font-size: 19px;
+    }
+    .TermsandConditions-content-section-div-inner-div h2 {
+      font-size: 17px;
+    }
+    .TermsandConditions-content-section-div-inner-div p {
+      font-size: 15px;
+    }
+    .TermsandConditions-content-section-div-inner-div span {
+      font-size: 16px;
+    }
+  }
+  

@@ -12,9 +12,9 @@ const HomePage = () => {
         <Hero/>
        <About/>
           <HomeService/>
-        <WeSupport/>
-        <Feedback/>
-        <GetApps/>
+       <WeSupport/>
+       <Feedback/>
+          <GetApps/>
     </div>
   )
 }

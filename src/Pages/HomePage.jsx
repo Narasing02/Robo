@@ -10,11 +10,11 @@ const HomePage = () => {
   return (
     <div>
         <Hero/>
-       <About/>
-          <HomeService/>
+      <About/>
+        <HomeService/>
        <WeSupport/>
-       <Feedback/>
-          <GetApps/>
+      <Feedback/>
+             <GetApps/>
     </div>
   )
 }

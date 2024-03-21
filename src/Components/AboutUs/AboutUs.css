@@ -1,3 +1,4 @@
+
 .about-us-section1{
     background-image: url('../../assets/taxi-about-bg.jpg');
     height:60vh;
@@ -33,8 +34,10 @@
 }
 
 .about-us-section2 div img{
-    height:500px;
+   height:400px;
+
 }
+
 .about-us-section2 div p{
     font-family: poppins;
     font-size: 20px;
@@ -42,6 +45,16 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+@media(max-width:450px){
+    .about-us-section2 div img{
+        height:350px;
+     
+     }
+     .about-us-section2 div p{
+        font-size:17px;
+     }
+
 }
 
 .about-us-our-team{

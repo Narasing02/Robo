@@ -8,11 +8,11 @@ const PrivacyandPolicy = () => {
       <div>
         <div className="PrivacyandPolicy-total-div">
           <div className="PrivacyandPolicy-hero-section-div">
-            <h1>Privacy Policy</h1>
-            <p>
-              <span>ROBO FASTTECH PRIVATE LIMITED </span> built the RobosCorp -
-              Partner app as a Free app. This <span>SERVICE </span> is provided
-              by <span>ROBO FASTTECH PRIVATE LIMITED </span> at no cost and is
+            <h1 className="head">Privacy Policy</h1>
+            <p className="para">  
+              <span className="span">ROBO FASTTECH PRIVATE LIMITED </span> built the RobosCorp -
+              Partner app as a Free app. This <span  className="span">SERVICE </span> is provided
+              by <span className="span">ROBO FASTTECH PRIVATE LIMITED </span> at no cost and is
               intended for use as is. This page is used to inform visitors
               regarding our policies with the collection, use, and disclosure of
               Personal Information if anyone decided to use our Service. If you

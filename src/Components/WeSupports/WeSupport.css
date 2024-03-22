@@ -86,6 +86,19 @@
  
    
 }
+
+@media(max-width:380px){
+    .weSupport-card img{
+        height:180px;
+    }
+    .weSupport-card{
+        height:250px;
+    
+    }
+
+}
+
+
 .we-support-icon{
    
     animation: animate 1s infinite  linear;

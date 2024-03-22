@@ -6,7 +6,7 @@
   .TermsandConditions-total-div {
   }
   .TermsandConditions-hero-section-div {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     background-image: url("../../assets/privicy.png");
     background-size: cover;
@@ -15,7 +15,7 @@
     align-items: center;
     flex-direction: column;
     gap: 40px;
-    padding: 30px;
+    padding: 35px;
   }
   .TermsandConditions-hero-section-div h1 {
     font-size: 45px;
@@ -76,21 +76,21 @@
   }
   @media (max-width: 515px) {
     .TermsandConditions-hero-section-div {
-      height: 40vh;
+      height: 60vh;
   
       padding: 0px 10px;
     }
     .TermsandConditions-hero-section-div h1 {
-      font-size: 30px;
+      font-size: 25px;
     }
     .TermsandConditions-hero-section-div p {
       font-size: 14px;
     }
     .TermsandConditions-content-section-div-inner-div h1 {
-      font-size: 17px;
+      font-size: 15px;
     }
     .TermsandConditions-content-section-div-inner-div h2 {
-      font-size: 15px;
+      font-size: 14px;
     }
     .TermsandConditions-content-section-div-inner-div p {
       font-size: 13px;
@@ -101,7 +101,7 @@
   }
   @media (max-width: 900px) {
     .TermsandConditions-hero-section-div {
-      height: 50vh;
+      height: 60vh;
   
       padding: 0px 20px;
     }

@@ -72,20 +72,20 @@
 }
 @media (max-width: 515px) {
   .PrivacyandPolicy-hero-section-div {
-    height: 100vh;
+    height: 120vh;
   }
   .PrivacyandPolicy-hero-section-div h1 {
     font-size: 30px;
   }
   .PrivacyandPolicy-hero-section-div p {
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
   }
   .PrivacyandPolicy-hero-section-div span {
-    font-size: 14px;
+    font-size: 13px;
   }
   .PrivacyandPolicy-content-section-div-inner-div h1 {
-    font-size: 19px;
+    font-size: 17px;
   }
   .PrivacyandPolicy-content-section-div-inner-div h2 {
     font-size: 17px;
